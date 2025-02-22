@@ -31,7 +31,7 @@ while play_again:
     if play == "yes":
         play_again = True
         os.system('cls')
-    elif play == "false":
+    elif play == "no":
         play_again = False
     else:
         print("Incorrect choice.")
